@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./SimpleTodo
+      dockerfile: Dockerfile
+    ports:
+      # from port 80 in the docker app to port 5000 in the local machine 
+      - '5000:80'
+
