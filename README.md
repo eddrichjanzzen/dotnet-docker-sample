@@ -35,6 +35,31 @@ docker-compose version 1.24.1, build 4667896b
 $ dotnet tool install -g dotnet-aspnet-codegenerator
 ``` 
 
+### Generate a simple empty api scaffold
+
+```
+$ dotnet aspnet-codegenerator controller -name <name of controller> -async -api --readWriteActions -outDir Controllers
+```
+
+### Initial Migration command
+```
+$ dotnet ef migrations add InitialCreate
+$ dotnet ef database update
+```ker version 19.03.2, build 6a30dfc
+```
+
+-  docker-compose
+```
+$ docker-compose --version
+docker-compose version 1.24.1, build 4667896b
+```
+
+ - dotnet-aspnet-codegenerator
+
+```
+$ dotnet tool install -g dotnet-aspnet-codegenerator
+``` 
+
 ### Add the ff Project Dependencies 
 ```
 $ dotnet add package Microsoft.EntityFrameworkCore.Design
