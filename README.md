@@ -1,5 +1,5 @@
 
-#  Setup an Angular ASP.NET Core WebAPI using Docker
+# Dotnet Core Web API using Docker
 
 # Prerequisites
 ### Source Control: *git*
